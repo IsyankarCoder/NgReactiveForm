@@ -1,0 +1,9 @@
+<label>Name : 
+    <input type="text" [formControl]="name" />
+</label>
+
+<p>
+    Value Of the Name :{{name.value}}
+</p>
+
+<button (click)="updateName()">İsmi Güncelle</button>
